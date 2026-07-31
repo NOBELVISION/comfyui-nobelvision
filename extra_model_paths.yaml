@@ -1,4 +1,8 @@
-runpod_volume:
-  base_path: /runpod-volume/models
-  diffusion_models: diffusion_models
-  text_encoders: text_encoders
+{
+  "delayTime": 7411,
+  "error": "Workflow validation failed:\n• Node 4 (errors): [{'type': 'value_not_in_list', 'message': 'Value not in list', 'details': \"clip_name: 'clip_vision_h.safetensors' not in []\", 'extra_info': {'input_name': 'clip_name', 'input_config': [[], {}], 'received_value': 'clip_vision_h.safetensors'}}]\n• Node 4 (dependent_outputs): ['19']\n• Node 4 (class_type): CLIPVisionLoader\n• Node 3 (errors): [{'type': 'value_not_in_list', 'message': 'Value not in list', 'details': \"vae_name: 'wan_2.1_vae.safetensors' not in ['pixel_space']\", 'extra_info': {'input_name': 'vae_name', 'input_config': [['pixel_space'], {}], 'received_value': 'wan_2.1_vae.safetensors'}}]\n• Node 3 (dependent_outputs): ['19']\n• Node 3 (class_type): VAELoader\n• Node 18 (errors): [{'type': 'value_not_in_list', 'message': 'Value not in list', 'details': \"lora_name: 'lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors' not in []\", 'extra_info': {'input_name': 'lora_name', 'input_config': [[], {}], 'received_value': 'lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors'}}]\n• Node 18 (dependent_outputs): ['19']\n• Node 18 (class_type): LoraLoaderModelOnly\n• Node 99 (errors): [{'type': 'value_not_in_list', 'message': 'Value not in list', 'details': \"lora_name: 'WanAnimate_relight_lora_fp16.safetensors' not in []\", 'extra_info': {'input_name': 'lora_name', 'input_config': [[], {}], 'received_value': 'WanAnimate_relight_lora_fp16.safetensors'}}]\n• Node 99 (dependent_outputs): ['19']\n• Node 99 (class_type): LoraLoaderModelOnly",
+  "executionTime": 6919,
+  "id": "767f13b8-8454-4db9-9d33-4088ae83e4bd-e1",
+  "status": "FAILED",
+  "workerId": "03wv7zviioso8f"
+}
